@@ -1,0 +1,55 @@
+.edit-user-view {
+  padding: 40px;
+  .user-name {
+    display: flex;
+    align-items: flex-end;
+    height: 30px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+  }
+  .user-card {
+    width: 460px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+    text-align: left;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 5px lightgray;
+    margin-bottom: 30px;
+    .user-avatar {
+      width: 130px;
+      height: 130px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+    .user-form {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      .form-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        input {
+          height: 35px;
+          border-radius: 5px;
+          border: 1px solid #e7e7e7;
+          font-size: 14px;
+          width: 220px;
+          padding-left: 6px;
+        }
+        label {
+          color: #464646;
+          font-size: 12px;
+          width: 45px;
+        }
+      }
+    }
+  }
+  .button-container {
+    width: 460px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
