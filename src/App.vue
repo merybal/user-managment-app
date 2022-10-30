@@ -3,7 +3,7 @@
     <div class="top-bar">
       <img :src="icons.Logo" alt="Logo purple" class="logo" />
     </div>
-    <router-view class="container"></router-view>
+    <router-view></router-view>
   </div>
 </template>
 
