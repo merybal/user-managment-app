@@ -2,6 +2,10 @@
 
 SPA developed for managment of users, using Vue.js 3 and JavaScript, with simulated storage using the browser's local storage.
 
+## Deployment
+
+[Visit site](https://merybal.github.io/user-managment-app/)
+
 ## Dependencies
 - Vue.js 3
 - Vue Router
